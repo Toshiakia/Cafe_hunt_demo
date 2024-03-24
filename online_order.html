@@ -1,0 +1,581 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Order - Reka Café</title>
+    <link rel="stylesheet" href="online_order_styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <!-- Product Section -->
+        <section class="product-section">
+            <div class="menu-category" id="drinks">
+                <h2>Drinks</h2>
+                <div class="product-grid">
+
+                    <div class="product-card" data-name="Espresso" data-price="3">
+                        <img src="shop_menu_p/cafe/p1.jpg" alt="Espresso">
+                        <h3>Espresso</h3>
+                        <p>Price: $3</p>
+                        <label for="size">Size:</label>
+                        <select id="size">
+                            <option value="Regular">Regular</option>
+                            <option value="Large">Large</option>
+                            <option value="Extra Large">Extra large</option>
+                        </select>
+                        <label for="sugar">Sugar:</label>
+                        <select id="sugar">
+                            <option value="Regular">Regular</option>
+                            <option value="Less">Less</option>
+                            <option value="More">More</option>
+                            <option value="None">None</option>
+                        </select>
+                        <label for="quinoa-salad-quantity">Number:</label>
+                        <input type="number" class="quantity-input" min="1" value="1">
+                        <button type="button" class="add-btn">Add</button>
+                    </div>
+                    <div class="product-card" data-name="Americano" data-price="3.5">
+                        <img src="shop_menu_p/cafe/p2.jpg" alt="Americano">
+                        <h3>Americano</h3>
+                        <p>Price: $3.5</p>
+                        <label for="size">Size:</label>
+                        <select id="size">
+                            <option value="Regular">Regular</option>
+                            <option value="Large">Large</option>
+                            <option value="Extra Large">Extra large</option>
+                        </select>
+                        <label for="sugar">Sugar:</label>
+                        <select id="sugar">
+                            <option value="Regular">Regular</option>
+                            <option value="Less">Less</option>
+                            <option value="More">More</option>
+                            <option value="None">None</option>
+                        </select>
+                        <label for="quinoa-salad-quantity">Number:</label>
+                        <input type="number" class="quantity-input" min="1" value="1">
+                        <button type="button" class="add-btn">Add</button>
+                    </div>
+                    <div class="product-card" data-name="Cappuccino" data-price="4">
+                        <img src="shop_menu_p/cafe/p3.jpg" alt="Cappuccino">
+                        <h3>Cappuccino</h3>
+                        <p>Price: $4</p>
+                        <label for="size">Size:</label>
+                        <select id="size">
+                            <option value="Regular">Regular</option>
+                            <option value="Large">Large</option>
+                            <option value="Extra Large">Extra large</option>
+                        </select>
+                        <label for="sugar">Sugar:</label>
+                        <select id="sugar">
+                            <option value="Regular">Regular</option>
+                            <option value="Less">Less</option>
+                            <option value="More">More</option>
+                            <option value="None">None</option>
+                        </select>
+                        <label for="quinoa-salad-quantity">Number:</label>
+                        <input type="number" class="quantity-input" min="1" value="1">
+                        <button type="button" class="add-btn">Add</button>
+                    </div>
+                    <div class="product-card" data-name="Latte" data-price="4.5">
+                        <img src="shop_menu_p/cafe/p4.jpg" alt="Latte">
+                        <h3>Latte</h3>
+                        <p>Price: $4.5</p>
+                        <label for="size">Size:</label>
+                        <select id="size">
+                            <option value="Regular">Regular</option>
+                            <option value="Large">Large</option>
+                            <option value="Extra Large">Extra large</option>
+                        </select>
+                        <label for="sugar">Sugar:</label>
+                        <select id="sugar">
+                            <option value="Regular">Regular</option>
+                            <option value="Less">Less</option>
+                            <option value="More">More</option>
+                            <option value="None">None</option>
+                        </select>
+                        <label for="quinoa-salad-quantity">Number:</label>
+                        <input type="number" class="quantity-input" min="1" value="1">
+                        <button type="button" class="add-btn">Add</button>
+                    </div>
+                    <div class="product-card" data-name="Mocha" data-price="5">
+                        <img src="shop_menu_p/cafe/p5.jpg" alt="Mocha">
+                        <h3>Mocha</h3>
+                        <p>Price: $5</p>
+                        <label for="size">Size:</label>
+                        <select id="size">
+                            <option value="Regular">Regular</option>
+                            <option value="Large">Large</option>
+                            <option value="Extra Large">Extra large</option>
+                        </select>
+                        <label for="sugar">Sugar:</label>
+                        <select id="sugar">
+                            <option value="Regular">Regular</option>
+                            <option value="Less">Less</option>
+                            <option value="More">More</option>
+                            <option value="None">None</option>
+                        </select>
+                        <label for="quinoa-salad-quantity">Number:</label>
+                        <input type="number" class="quantity-input" min="1" value="1">
+                        <button type="button" class="add-btn">Add</button>
+                    </div>
+                    <div class="product-card" data-name="Iced Coffee" data-price="4.5">
+                        <img src="shop_menu_p/cafe/p6.jpg" alt="Iced Coffee">
+                        <h3>Iced Coffee</h3>
+                        <p>Price: $4.5</p>
+                        <label for="size">Size:</label>
+                        <select id="size">
+                            <option value="Regular">Regular</option>
+                            <option value="Large">Large</option>
+                            <option value="Extra Large">Extra large</option>
+                        </select>
+                        <label for="sugar">Sugar:</label>
+                        <select id="sugar">
+                            <option value="Regular">Regular</option>
+                            <option value="Less">Less</option>
+                            <option value="More">More</option>
+                            <option value="None">None</option>
+                        </select>
+                        <label for="quinoa-salad-quantity">Number:</label>
+                        <input type="number" class="quantity-input" min="1" value="1">
+                        <button type="button" class="add-btn">Add</button>
+                    </div>
+                    <div class="product-card" data-name="Flat White" data-price="4.5">
+                        <img src="shop_menu_p/cafe/p7.jpg" alt="Flat White">
+                        <h3>Flat White</h3>
+                        <p>Price: $4.5</p>
+                        <label for="size">Size:</label>
+                        <select id="size">
+                            <option value="Regular">Regular</option>
+                            <option value="Large">Large</option>
+                            <option value="Extra Large">Extra large</option>
+                        </select>
+                        <label for="sugar">Sugar:</label>
+                        <select id="sugar">
+                            <option value="Regular">Regular</option>
+                            <option value="Less">Less</option>
+                            <option value="More">More</option>
+                            <option value="None">None</option>
+                        </select>
+                        <label for="quinoa-salad-quantity">Number:</label>
+                        <input type="number" class="quantity-input" min="1" value="1">
+                        <button type="button" class="add-btn">Add</button>
+                    </div>
+
+                    <div class="product-card" data-name="Iced Latte" data-price="4.75">
+                        <img src="shop_menu_p/cafe/p8.jpg" alt="Iced Latte">
+                        <h3>Iced Latte</h3>
+                        <p>Price: $4.75</p>
+                        <label for="size">Size:</label>
+                        <select id="size">
+                            <option value="Regular">Regular</option>
+                            <option value="Large">Large</option>
+                            <option value="Extra Large">Extra large</option>
+                        </select>
+                        <label for="sugar">Sugar:</label>
+                        <select id="sugar">
+                            <option value="Regular">Regular</option>
+                            <option value="Less">Less</option>
+                            <option value="More">More</option>
+                            <option value="None">None</option>
+                        </select>
+                        <label for="quinoa-salad-quantity">Number:</label>
+                        <input type="number" class="quantity-input" min="1" value="1">
+                        <button type="button" class="add-btn">Add</button>
+                    </div>
+
+                    <!-- add more... -->
+                </div>
+            </div>
+
+            <div class="menu-category" id="pastries-and-desserts">
+                <h2>Pastries and Desserts</h2>
+                <div class="product-grid">
+
+                    <div class="product-card" data-name="Cheesecake" data-price="5">
+                        <img src="shop_menu_p/cake/p1.jpg" alt="Cheesecake">
+                        <h3>Cheesecake</h3>
+                        <p>Price: $5</p>
+                        <label for="choco-croissant-filling">Filling:</label>
+                        <select id="choco-croissant-filling">
+                            <option value="Chocolate">Chocolate</option>
+                            <option value="Vanilla">Vanilla</option>
+                        </select>
+                        <label for="choco-croissant-size">Size:</label>
+                        <select id="choco-croissant-size">
+                            <option value="Regular">Regular</option>
+                            <option value="Large">Large</option>
+                            <option value="Extra Large">Extra large</option>
+                        </select>
+                        <label for="quinoa-salad-quantity">Number:</label>
+                        <input type="number" class="quantity-input" min="1" value="1">
+                        <button type="button" class="add-btn">Add</button>
+                    </div>
+
+                    <div class="product-card" data-name="Chocolate Cake" data-price="6">
+                        <img src="shop_menu_p/cake/p2.jpg" alt="Chocolate Cake">
+                        <h3>Chocolate Cake</h3>
+                        <p>Price: $6</p>
+                        <label for="choco-croissant-filling">Filling:</label>
+                        <select id="choco-croissant-filling">
+                            <option value="Chocolate">Chocolate</option>
+                            <option value="Vanilla">Vanilla</option>
+                        </select>
+                        <label for="choco-croissant-size">Size:</label>
+                        <select id="choco-croissant-size">
+                            <option value="Regular">Regular</option>
+                            <option value="Large">Large</option>
+                            <option value="Extra Large">Extra large</option>
+                        </select>
+                        <label for="quinoa-salad-quantity">Number:</label>
+                        <input type="number" class="quantity-input" min="1" value="1">
+                        <button type="button" class="add-btn">Add</button>
+                    </div>
+
+                    <div class="product-card" data-name="Macarons" data-price="2">
+                        <img src="shop_menu_p/cake/p3.jpg" alt="Macarons">
+                        <h3>Macarons</h3>
+                        <p>Price: $2</p>
+                        <label for="choco-croissant-filling">Filling:</label>
+                        <select id="choco-croissant-filling">
+                            <option value="Chocolate">Chocolate</option>
+                            <option value="Vanilla">Vanilla</option>
+                        </select>
+                        <label for="choco-croissant-size">Size:</label>
+                        <select id="choco-croissant-size">
+                            <option value="Regular">Regular</option>
+                            <option value="Large">Large</option>
+                            <option value="Extra Large">Extra large</option>
+                        </select>
+                        <label for="quinoa-salad-quantity">Number:</label>
+                        <input type="number" class="quantity-input" min="1" value="1">
+                        <button type="button" class="add-btn">Add</button>
+                    </div>
+
+                    <div class="product-card" data-name="Lemon Tart" data-price="4.50">
+                        <img src="shop_menu_p/cake/p4.jpg" alt="Lemon Tart">
+                        <h3>Lemon Tart</h3>
+                        <p>Price: $4.50</p>
+                        <label for="choco-croissant-filling">Filling:</label>
+                        <select id="choco-croissant-filling">
+                            <option value="Chocolate">Chocolate</option>
+                            <option value="Vanilla">Vanilla</option>
+                        </select>
+                        <label for="choco-croissant-size">Size:</label>
+                        <select id="choco-croissant-size">
+                            <option value="Regular">Regular</option>
+                            <option value="Large">Large</option>
+                            <option value="Extra Large">Extra large</option>
+                        </select>
+                        <label for="quinoa-salad-quantity">Number:</label>
+                        <input type="number" class="quantity-input" min="1" value="1">
+                        <button type="button" class="add-btn">Add</button>
+                    </div>
+
+                    <div class="product-card" data-name="Fruit Pavlova" data-price="5.50">
+                        <img src="shop_menu_p/cake/p5.jpg" alt="Fruit Pavlova">
+                        <h3>Fruit Pavlova</h3>
+                        <p>Price: $5.50</p>
+                        <label for="choco-croissant-filling">Filling:</label>
+                        <select id="choco-croissant-filling">
+                            <option value="Chocolate">Chocolate</option>
+                            <option value="Vanilla">Vanilla</option>
+                        </select>
+                        <label for="choco-croissant-size">Size:</label>
+                        <select id="choco-croissant-size">
+                            <option value="Regular">Regular</option>
+                            <option value="Large">Large</option>
+                            <option value="Extra Large">Extra large</option>
+                        </select>
+                        <label for="quinoa-salad-quantity">Number:</label>
+                        <input type="number" class="quantity-input" min="1" value="1">
+                        <button type="button" class="add-btn">Add</button>
+                    </div>
+
+                    <div class="product-card" data-name="Tiramisu" data-price="6">
+                        <img src="shop_menu_p/cake/p6.jpg" alt="Tiramisu">
+                        <h3>Tiramisu</h3>
+                        <p>Price: $6</p>
+                        <label for="choco-croissant-filling">Filling:</label>
+                        <select id="choco-croissant-filling">
+                            <option value="Chocolate">Chocolate</option>
+                            <option value="Vanilla">Vanilla</option>
+                        </select>
+                        <label for="choco-croissant-size">Size:</label>
+                        <select id="choco-croissant-size">
+                            <option value="Regular">Regular</option>
+                            <option value="Large">Large</option>
+                            <option value="Extra Large">Extra large</option>
+                        </select>
+                        <label for="quinoa-salad-quantity">Number:</label>
+                        <input type="number" class="quantity-input" min="1" value="1">
+                        <button type="button" class="add-btn">Add</button>
+                    </div>
+
+                    <div class="product-card" data-name="Carrot Cake" data-price="5.5">
+                        <img src="shop_menu_p/cake/p7.jpg" alt="Carrot Cake">
+                        <h3>Carrot Cake</h3>
+                        <p>Price: $5.5</p>
+                        <label for="choco-croissant-filling">Filling:</label>
+                        <select id="choco-croissant-filling">
+                            <option value="Chocolate">Chocolate</option>
+                            <option value="Vanilla">Vanilla</option>
+                        </select>
+                        <label for="choco-croissant-size">Size:</label>
+                        <select id="choco-croissant-size">
+                            <option value="Regular">Regular</option>
+                            <option value="Large">Large</option>
+                            <option value="Extra Large">Extra large</option>
+                        </select>
+                        <label for="quinoa-salad-quantity">Number:</label>
+                        <input type="number" class="quantity-input" min="1" value="1">
+                        <button type="button" class="add-btn">Add</button>
+                    </div>
+
+                    <div class="product-card" data-name="Apple Pie" data-price="4.75">
+                        <img src="shop_menu_p/cake/p8.webp" alt="Apple Pie">
+                        <h3>Apple Pie</h3>
+                        <p>Price: $4.75</p>
+                        <label for="choco-croissant-filling">Filling:</label>
+                        <select id="choco-croissant-filling">
+                            <option value="Chocolate">Chocolate</option>
+                            <option value="Vanilla">Vanilla</option>
+                        </select>
+                        <label for="choco-croissant-size">Size:</label>
+                        <select id="choco-croissant-size">
+                            <option value="Regular">Regular</option>
+                            <option value="Large">Large</option>
+                            <option value="Extra Large">Extra large</option>
+                        </select>
+                        <label for="quinoa-salad-quantity">Number:</label>
+                        <input type="number" class="quantity-input" min="1" value="1">
+                        <button type="button" class="add-btn">Add</button>
+                    </div>
+                    <!-- add more... -->
+                </div>
+            </div>
+
+            <div class="menu-category" id="light-meals">
+                <h2>Light meals and sandwiches</h2>
+                <div class="product-grid">
+
+                    <div class="product-card" data-name="Classic BLT Sandwich" data-price="5.50">
+                        <img src="shop_menu_p/sandwiches/p1.jpg" alt="Classic BLT Sandwich">
+                        <h3>Classic BLT Sandwich</h3>
+                        <p>Price: $5.50</p>
+                        <label for="turkey-sandwich-sauce">Sauce:</label>
+                        <select class="sauce-select">
+                            <option value="Mustard">mustard</option>
+                            <option value="Mayo">Mayonnaise</option>
+                            <option value="BBQ">Barbecue sauce</option>
+                        </select>
+                        <label for="quinoa-salad-size">Size:</label>
+                        <select class="size-select">
+                            <option value="Regular">Regular</option>
+                            <option value="Large">Large</option>
+                            <option value="Extra Large">Extra large</option>
+                        </select>
+                        <label for="quinoa-salad-quantity">Number:</label>
+                        <input type="number" class="quantity-input" min="1" value="1">
+                        <button type="button" class="add-btn">Add</button>
+                    </div>
+
+                    <div class="product-card" data-name="Avocado Chicken Wrap" data-price="8">
+                        <img src="shop_menu_p/sandwiches/p2.jpg" alt="Avocado Chicken Wrap">
+                        <h3>Avocado Chicken Wrap</h3>
+                        <p>Price: $8</p>
+                        <label for="turkey-sandwich-sauce">Sauce:</label>
+                        <select class="sauce-select">
+                            <option value="Mustard">mustard</option>
+                            <option value="Mayo">Mayonnaise</option>
+                            <option value="BBQ">Barbecue sauce</option>
+                        </select>
+                        <label for="quinoa-salad-size">Size:</label>
+                        <select class="size-select">
+                            <option value="Regular">Regular</option>
+                            <option value="Large">Large</option>
+                            <option value="Extra Large">Extra large</option>
+                        </select>
+                        <label for="quinoa-salad-quantity">Number:</label>
+                        <input type="number" class="quantity-input" min="1" value="1">
+                        <button type="button" class="add-btn">Add</button>
+                    </div>
+
+                    <div class="product-card" data-name="Veggie Burger" data-price="9">
+                        <img src="shop_menu_p/sandwiches/p3.jpg" alt="CVeggie Burger">
+                        <h3>Veggie Burger</h3>
+                        <p>Price: $9</p>
+                        <label for="turkey-sandwich-sauce">Sauce:</label>
+                        <select class="sauce-select">
+                            <option value="Mustard">mustard</option>
+                            <option value="Mayo">Mayonnaise</option>
+                            <option value="BBQ">Barbecue sauce</option>
+                        </select>
+                        <label for="quinoa-salad-size">Size:</label>
+                        <select class="size-select">
+                            <option value="Regular">Regular</option>
+                            <option value="Large">Large</option>
+                            <option value="Extra Large">Extra large</option>
+                        </select>
+                        <label for="quinoa-salad-quantity">Number:</label>
+                        <input type="number" class="quantity-input" min="1" value="1">
+                        <button type="button" class="add-btn">Add</button>
+                    </div>
+
+                    <div class="product-card" data-name="Turkey Club Sandwich" data-price="9.50">
+                        <img src="shop_menu_p/sandwiches/p4.jpg" alt="Turkey Club Sandwich">
+                        <h3>Turkey Club Sandwich</h3>
+                        <p>Price: $9.50</p>
+                        <label for="turkey-sandwich-sauce">Sauce:</label>
+                        <select class="sauce-select">
+                            <option value="Mustard">mustard</option>
+                            <option value="Mayo">Mayonnaise</option>
+                            <option value="BBQ">Barbecue sauce</option>
+                        </select>
+                        <label for="quinoa-salad-size">Size:</label>
+                        <select class="size-select">
+                            <option value="Regular">Regular</option>
+                            <option value="Large">Large</option>
+                            <option value="Extra Large">Extra large</option>
+                        </select>
+                        <label for="quinoa-salad-quantity">Number:</label>
+                        <input type="number" class="quantity-input" min="1" value="1">
+                        <button type="button" class="add-btn">Add</button>
+                    </div>
+
+                    <div class="product-card" data-name="Caprese Sandwich" data-price="8">
+                        <img src="shop_menu_p/sandwiches/p5.jpg" alt="Caprese Sandwich">
+                        <h3>Caprese Sandwich</h3>
+                        <p>Price: $8</p>
+                        <label for="turkey-sandwich-sauce">Sauce:</label>
+                        <select class="sauce-select">
+                            <option value="Mustard">mustard</option>
+                            <option value="Mayo">Mayonnaise</option>
+                            <option value="BBQ">Barbecue sauce</option>
+                        </select>
+                        <label for="quinoa-salad-size">Size:</label>
+                        <select class="size-select">
+                            <option value="Regular">Regular</option>
+                            <option value="Large">Large</option>
+                            <option value="Extra Large">Extra large</option>
+                        </select>
+                        <label for="quinoa-salad-quantity">Number:</label>
+                        <input type="number" class="quantity-input" min="1" value="1">
+                        <button type="button" class="add-btn">Add</button>
+                    </div>
+
+                    <div class="product-card" data-name="Egg Salad Sandwich" data-price="6">
+                        <img src="shop_menu_p/sandwiches/p6.jpg" alt="Egg Salad Sandwich">
+                        <h3>Egg Salad Sandwich</h3>
+                        <p>Price: $6</p>
+                        <label for="turkey-sandwich-sauce">Sauce:</label>
+                        <select class="sauce-select">
+                            <option value="Mustard">mustard</option>
+                            <option value="Mayo">Mayonnaise</option>
+                            <option value="BBQ">Barbecue sauce</option>
+                        </select>
+                        <label for="quinoa-salad-size">Size:</label>
+                        <select class="size-select">
+                            <option value="Regular">Regular</option>
+                            <option value="Large">Large</option>
+                            <option value="Extra Large">Extra large</option>
+                        </select>
+                        <label for="quinoa-salad-quantity">Number:</label>
+                        <input type="number" class="quantity-input" min="1" value="1">
+                        <button type="button" class="add-btn">Add</button>
+                    </div>
+
+                    <div class="product-card" data-name="Salmon Bagel" data-price="10">
+                        <img src="shop_menu_p/sandwiches/p7.jpg" alt="CSalmon Bagel">
+                        <h3>Salmon Bagel</h3>
+                        <p>Price: $10</p>
+                        <label for="turkey-sandwich-sauce">Sauce:</label>
+                        <select class="sauce-select">
+                            <option value="Mustard">mustard</option>
+                            <option value="Mayo">Mayonnaise</option>
+                            <option value="BBQ">Barbecue sauce</option>
+                        </select>
+                        <label for="quinoa-salad-size">Size:</label>
+                        <select class="size-select">
+                            <option value="Regular">Regular</option>
+                            <option value="Large">Large</option>
+                            <option value="Extra Large">Extra large</option>
+                        </select>
+                        <label for="quinoa-salad-quantity">Number:</label>
+                        <input type="number" class="quantity-input" min="1" value="1">
+                        <button type="button" class="add-btn">Add</button>
+                    </div>
+
+                    <div class="product-card" data-name="Roast Beef and Swiss Panini" data-price="10.5">
+                        <img src="shop_menu_p/sandwiches/p8.jpg" alt="Roast Beef and Swiss Panini">
+                        <h3>Roast Beef and Swiss Panini</h3>
+                        <p>Price: $10.5</p>
+                        <label for="turkey-sandwich-sauce">Sauce:</label>
+                        <select class="sauce-select">
+                            <option value="Mustard">mustard</option>
+                            <option value="Mayo">Mayonnaise</option>
+                            <option value="BBQ">Barbecue sauce</option>
+                        </select>
+                        <label for="quinoa-salad-size">Size:</label>
+                        <select class="size-select">
+                            <option value="Regular">Regular</option>
+                            <option value="Large">Large</option>
+                            <option value="Extra Large">Extra large</option>
+                        </select>
+                        <label for="quinoa-salad-quantity">Number:</label>
+                        <input type="number" class="quantity-input" min="1" value="1">
+                        <button type="button" class="add-btn">Add</button>
+                    </div>
+                    <!-- add more... -->
+                </div>
+            </div>
+
+            <div class="menu-category" id="healthy-meals">
+                <h2>Healthy meal options</h2>
+                <div class="product-grid">
+                    
+                    <div class="product-card" data-name="Quinoa Salad" data-price="6.50">
+                        <img src="shop_menu_p/healthy/p2.jpg" alt="Quinoa Salad">
+                        <h3>Quinoa Salad</h3>
+                        <p>Price: $6.50</p>
+                        <label for="turkey-sandwich-sauce">Sauce:</label>
+                        <select class="sauce-select">
+                            <option value="Mustard">mustard</option>
+                            <option value="Mayo">Mayonnaise</option>
+                            <option value="BBQ">Barbecue sauce</option>
+                        </select>
+                        <label for="quinoa-salad-size">Size:</label>
+                        <select class="size-select">
+                            <option value="Regular">Regular</option>
+                            <option value="Large">Large</option>
+                            <option value="Extra Large">Extra large</option>
+                        </select>
+                        <label for="quinoa-salad-quantity">Number:</label>
+                        <input type="number" class="quantity-input" min="1" value="1">
+                        <button type="button" class="add-btn">Add</button>
+                    </div>
+                    <!-- add more... -->
+                </div>
+            </div>
+
+
+
+            <!-- Additional categories... -->
+        </section>
+
+
+
+        <!-- Order Summary  -->
+        <aside class="order-summary">
+            <h2>Order Details</h2>
+            <div id="order-items"></div>
+            <p>Total: $<span id="total-price">0.00</span></p>
+            <button type="button" id="finish-order">Finish Order</button>
+        </aside>
+    </div>
+
+    <script src="online_order_js.js"></script>
+
+</body>
+</html>

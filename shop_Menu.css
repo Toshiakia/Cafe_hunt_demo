@@ -1,0 +1,43 @@
+﻿.menu-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.menu-category + .menu-category {
+    margin-top: 40px; /* spacing between categories */
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Display four menu items in a row */
+    gap: 20px; /* grid spacing */
+}
+
+.menu-item {
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+    .menu-item img {
+        max-width: 100%; /* Image adaptive container width */
+        height: 300px;
+        border-radius: 5px;
+        object-fit: cover;
+    }
+
+
+@media (max-width: 768px) {
+    .menu-grid {
+        grid-template-columns: repeat(2, 1fr); /* Display two menu items in a row when the screen is small */
+    }
+}
+
+@media (max-width: 480px) {
+    .menu-grid {
+        grid-template-columns: 1fr; /* Display one menu item per row on a very small screen */
+    }
+}

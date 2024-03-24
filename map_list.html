@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="map.css">
+
+    <title>CafeHunt</title>
+    <div class="login-bar">
+        <form action="your_login_script.php" method="post">
+            <input type="text" placeholder="Username" name="username" required>
+            <input type="password" placeholder="Password" name="password" required>
+            <button type="submit">Login</button>
+			<button type="button" onclick="window.location.href='register.html';">Register</button>
+        </form>
+    </div>
+
+</head>
+
+
+<body>
+
+    <header>
+
+        <div class="header" id="home">
+            <div class="container">
+                <div class="logo">
+                    <a href="#">
+                        <img src="LOGO.jpg" width="190" alt="CafeHunt">
+                    </a>
+                </div>
+                <ul class="list">
+                    <li><a href="cafe_hunt.html">HOMEPAGE</a></li>
+                    <li>
+                        <a href="#det">Gallery</a>
+                    </li>
+                    <li>
+                        <div class="dropdown">
+                            <a href="menu.html" class="dropbtn">Categones</a>
+                            <div class="dropdown-content">
+                                <a href="menu.html">Desserts </a>
+                                <a href="menu.html">Drinks </a>
+                                <a href="menu.html">Lunch </a>
+
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dropdown">
+                            <a href="menu.html" class="dropbtn">Area</a>
+                            <div class="dropdown-content">
+                                <a href="menu.html">CBD </a>
+                                <a href="menu.html">Epsom </a>
+                                <a href="menu.html">Waitakere </a>
+                                <a href="menu.html">Blockhouse Bay </a>
+                                <a href="menu.html">Greenfield </a>
+                                <a href="menu.html">Birkenhead </a>
+                                <a href="menu.html">North Shore </a>
+                                <a href="menu.html">Manukau </a>
+                                <a href="menu.html">Royal Oak </a>
+                                <a href="menu.html">Botany  </a>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a href="#footer">PROMOTIONS</a>
+                    </li>
+                    <li>
+                        <a href="#footer">ABOUT US</a>
+                    </li>
+                    <li>
+                        <a href="#footer">CONTACT US</a>
+                    </li>
+
+                </ul>
+                <div class="search">
+                    <form>
+                        <input type="submit" value="SEARCH" class="search1">
+                        <input type="text" class="content1" placeholder="City,food,name,address">
+                    </form>
+                </div>
+                <div class="map-toggle-container" style="text-align: center; margin-top: 20px;">
+                    <a href="main page reka.html" class="map-toggle-btn" style="padding: 10px 20px; font-size: 16px; cursor: pointer; text-decoration: none; color: inherit; display: inline-block;">FAVOUR</a>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <div class="banenr">
+        <div class="banner-bg">
+            <h2><b>EASY/  DELICIOUS/  HEALTHY</b></h2>
+        </div>
+    </div>
+
+
+
+
+    <h3 class="sub-heading"> Map list show cafe shop  </h3>
+    <h1 class="heading"> //TODO lift is map ,right side are shop list wh </h1>
+
+
+    <div class="main-content">
+        <div class="map-container">
+            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12747.418902019393!2d174.86664819140216!3d-36.98940072855899!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d0d4dc0da10dc85%3A0x500ef6143a2df40!2zTWFudWthdSBDaXR5IENlbnRyZSwg5aWl5YWL5YWw!5e0!3m2!1szh-CN!2snz!4v1651287599963!5m2!1szh-CN!2snz" width="1000" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="info-panel">
+            <!-- Cafe information -->
+            <a href="shop.html" target="_blank" style="text-decoration: none; color: inherit;">
+                <div class="cafe-item">
+                    <h3>Reka Cafe</h3>
+                    <p>Address: 100 Queen St, Auckland</p>
+                    <p>Rating: 4.5/5</p>
+                </div>
+            </a>
+
+            <div class="cafe-item">
+                <h3>Harbour Coffee</h3>
+                <p>Address: 50 Customs St, Auckland</p>
+                <p>Rating: 4.2/5</p>
+            </div>
+
+            <a href="shop.html" target="_blank" style="text-decoration: none; color: inherit;">
+                <div class="cafe-item">
+                    <h3>Harbour Coffee</h3>
+                    <p>Address: 50 Customs St, Auckland</p>
+                    <p>Rating: 4.2/5</p>
+                </div>
+            </a>
+            <a href="shop.html" target="_blank" style="text-decoration: none; color: inherit;">
+                <div class="cafe-item">
+                    <h3>City Espresso</h3>
+                    <p>Address: 200 Victoria St W, Auckland</p>
+                    <p>Rating: 4.7/5</p>
+                </div>
+            </a>
+            <a href="shop.html" target="_blank" style="text-decoration: none; color: inherit;">
+                <div class="cafe-item">
+                    <h3>Bean There</h3>
+                    <p>Address: 120 Ponsonby Rd, Auckland</p>
+                    <p>Rating: 4.3/5</p>
+                </div>
+            </a>
+            <a href="shop.html" target="_blank" style="text-decoration: none; color: inherit;">
+                <div class="cafe-item">
+                    <h3>Java Junction</h3>
+                    <p>Address: 300 Queen St, Auckland</p>
+                    <p>Rating: 4.1/5</p>
+                </div>
+            </a>
+            <a href="shop.html" target="_blank" style="text-decoration: none; color: inherit;">
+                <div class="cafe-item">
+                    <h3>The Grind</h3>
+                    <p>Address: 33 Lorne St, Auckland</p>
+                    <p>Rating: 4.5/5</p>
+                </div>
+            </a>
+            <a href="shop.html" target="_blank" style="text-decoration: none; color: inherit;">
+                <div class="cafe-item">
+                    <h3>Brewed Awakening</h3>
+                    <p>Address: 450 Karangahape Rd, Auckland</p>
+                    <p>Rating: 4.4/5</p>
+                </div>
+            </a>
+
+            <!-- more Cafe information -->
+        </div>
+    </div>
+
+    
+
+
+
+</body>
+
+
+
+<!-- 脚部开始  -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<section class="footer"id="footer">
+
+    <div class="box-container">
+        <div class="box">
+            <h3>About us</h3>
+            <a href="#">Market reports</a>
+            <a href="#">News</a>
+            <a href="#">Careers</a>
+            <a href="#">Supporting our community</a>
+            <a href="#">Feedback </a>
+            <a href="#">Sitemap </a>
+			<a href="#">something else</a>
+        </div>
+
+        <div class="box">
+            <h3>contact us</h3>
+            <a href="#">phone number: 0212016116</a>
+            <a href="#">telephone:0086-18660884524</a>
+            <a href="#">toshiakixu@gmail.com</a>
+            <a href="#">CafeHunt@.nz.com</a>
+            <a href="#">manuku-Auckland-1010</a>
+        </div>
+
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+             <a href="https://www.instagram.com/" class="fa fa-twitter"></a>
+             <a href="https://www.google.com" class="fa fa-google"></a>
+        </div>
+		
+		<div class="box">
+            <h3>User help</h3>
+            <a href="#">customer service center</a>
+            <a href="#">Intellectual property rights protection</a>
+            <a href="#">Integrity Reporting Platform</a>
+ 
+        </div>
+
+    </div>
+    <body>
+    <div class="credit"><hi>Copyright @ 2024 CafeHunt.com,<br> All rights reserved. by <span>Ding Zhen</span><br>We keep customers personal information confidential and respect customers privacy</h1></div>>
+
+</body>
+</section>
+
+<!-- 脚部结束 -->
+
+
+
+</html>
+
